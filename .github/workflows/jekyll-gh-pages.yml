@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo GENIALS</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #0e0e0e;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(90deg, #ff7a00, #ff4f00);
+      padding: 25px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      box-shadow: 0 4px 12px rgba(255, 100, 0, 0.4);
+    }
+    .top-bar {
+      text-align: center;
+      padding: 15px;
+      background: #1a1a1a;
+      font-size: 18px;
+      font-weight: 500;
+      border-bottom: 1px solid #333;
+    }
+    .contenedor {
+      padding: 25px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background-color: #161616;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 0 15px rgba(255, 100, 0, 0.25);
+      transition: 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 20px rgba(255, 100, 0, 0.5);
+    }
+    .card img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+    }
+    .info {
+      padding: 18px;
+      text-align: center;
+    }
+    .info h3 {
+      margin: 10px 0;
+      color: #ff7a00;
+      font-size: 20px;
+    }
+    .precio {
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+    .tallas {
+      margin-top: 5px;
+      font-size: 15px;
+      color: #ccc;
+    }
+    .boton-compra {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 18px;
+      background: #ff7a00;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .boton-compra:hover {
+      background: #ff4f00;
+    }
+  </style>
+</head>
+<body>
+  <header>CATÁLOGO GENIALS</header>
+  <div class="top-bar">🔥 Todos los modelos a <b>$70</b> con envío GRATIS — Tallas 35 a 44</div>
+
+  <div class="contenedor">
+
+    <div class="card">
+      <img src="img1.jpg" />
+      <div class="info">
+        <h3>Jordan Urbano</h3>
+        <p class="precio">$70</p>
+        <p class="tallas">Tallas disponibles: 35 a 44</p>
+        <a class="boton-compra" href="#">Solicitar</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img2.jpg" />
+      <div class="info">
+        <h3>Jordan Azul</h3>
+        <p class="precio">$70</p>
+        <p class="tallas">Tallas disponibles: 35 a 44</p>
+        <a class="boton-compra" href="#">Solicitar</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img3.jpg" />
+      <div class="info">
+        <h3>Jordan Blanco</h3>
+        <p class="precio">$70</p>
+        <p class="tallas">Tallas disponibles: 35 a 44</p>
+        <a class="boton-compra" href="#">Solicitar</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img4.jpg" />
+      <div class="info">
+        <h3>Jordan Black Edition</h3>
+        <p class="precio">$70</p>
+        <p class="tallas">Tallas disponibles: 35 a 44</p>
+        <a class="boton-compra" href="#">Solicitar</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img5.jpg" />
+      <div class="info">
+        <h3>Jordan Black/White</h3>
+        <p class="precio">$70</p>
+        <p class="tallas">Tallas disponibles: 35 a 44</p>
+        <a class="boton-compra" href="#">Solicitar</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
